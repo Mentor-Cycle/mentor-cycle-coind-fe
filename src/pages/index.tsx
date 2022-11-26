@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Button } from '../components/Button'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,6 +16,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+
+        <Button title='Entrar com o Google' variant='secondary' color='red' colorText='#000000'/>
 
         <p className={styles.description}>
           Get started by editing{' '}
