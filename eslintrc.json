@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "next",
+    "airbnb",
+    "airbnb-typescript",
+    "next/core-web-vitals",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "object-shorthand": "off",
+    "class-methods-use-this": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/self-closing-comp": "off"
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
