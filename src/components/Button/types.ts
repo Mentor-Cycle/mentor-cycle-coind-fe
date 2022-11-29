@@ -1,7 +1,9 @@
+import React from "react";
+
 export interface IButton {
     title: string;
     variant: VARIANT_BUTTON;
-    onClick?: () => void;
+    onClick?: React.MouseEventHandler;
 }
 
 export interface IButtonStyled {
