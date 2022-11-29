@@ -1,13 +1,14 @@
 export interface IButton {
     title: string;
-    variant?: string;
-    colorText?: string;
-    color?: string;
+    variant: VARIANT_BUTTON;
     onClick?: () => void;
-    type?: string;
 }
 
 export interface IButtonStyled {
-    variant: string;
-    colorText: string;
+    variant: VARIANT_BUTTON;
+}
+
+export enum VARIANT_BUTTON {
+    PRIMARY = "primary",
+    SECONDARY = "secondary",
 }
