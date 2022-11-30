@@ -10,6 +10,8 @@ export const theme = {
   },
 };
 
+export type ThemeType = typeof theme;
+
 export const GlobalStyles = createGlobalStyle<{ theme: typeof theme }>`
     body {
       font-family: Tahoma, Helvetica, Arial, Roboto, sans-serif;
